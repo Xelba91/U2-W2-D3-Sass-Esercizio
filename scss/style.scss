@@ -57,8 +57,7 @@ body {
 }
 
 .hero-content h1 {
-  font-size: 60px;
-  margin-bottom: 20px;
+  @include title-big;
 }
 
 .hero-content p {

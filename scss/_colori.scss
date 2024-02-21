@@ -1,14 +1,20 @@
+$light-color: #f4f4f4;
+$primary-color: #0e6cff;
+$tertiary-color: #ff8700;
+$secondary-color: #4caf50;
+$hero-color: #640fc5;
+
 .discover {
-  background-color: #0e6cff;
-  color: #fff;
+  background-color: $primary-color;
+  color: $light-color;
 }
 
 .login {
-  background-color: #4caf50;
-  color: #fff;
+  background-color: $secondary-color;
+  color: $light-color;
 }
 
 .contact {
-  background-color: #ff8700;
-  color: #f4f4f4;
+  background-color: $tertiary-color;
+  color: $light-color;
 }

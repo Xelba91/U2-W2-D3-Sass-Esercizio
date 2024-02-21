@@ -1,0 +1,140 @@
+.discover {
+  background-color: #0e6cff;
+  color: #fff;
+}
+
+.login {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.contact {
+  background-color: #ff8700;
+  color: #f4f4f4;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 20px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links li a:hover {
+  color: #ff6600;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  background-color: #640fc5;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.hero-content h1 {
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  margin-bottom: 30px;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  animation: fadeInDown 1s forwards;
+}
+
+.hero-content {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInDown 1s forwards;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.grid-item {
+  flex: 1 0 calc(25% - 20px); /* 50% della larghezza con margine a sinistra e a destra di 20px */
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
